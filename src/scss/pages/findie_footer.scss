@@ -1,0 +1,35 @@
+#findie__footer{
+    background-color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size:calrem(12px);
+    color: #828282;
+    .column.is-4{
+        display: inline-flex;
+        align-items: center;
+    }
+    .text{
+        justify-content: left;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .findieLogo{
+        justify-content: flex-end;
+    }
+    @include mobile{
+        figure{
+            text-align: left;
+        }
+    }
+    .socialMedia{
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom:4rem;
+        a{
+            margin-right:0.5rem;
+            margin-left:0.5rem;
+        }
+    }
+}

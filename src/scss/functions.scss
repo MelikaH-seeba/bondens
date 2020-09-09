@@ -1,0 +1,1 @@
+@function calrem($sizePx) { $remSize: $sizePx / $body-size; @return #{$remSize}rem;}

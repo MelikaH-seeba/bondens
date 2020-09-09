@@ -1,0 +1,30 @@
+@import "../functions.scss";
+
+#historia__section{
+  background-color: white;
+  padding-top:calrem(200px);
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    h2{
+        font-family: 'Abril Fatface', cursive;        
+        font-size: calrem(14px);
+        color: #E1A75F;
+        margin-bottom:0.6rem;
+      }
+      h1{
+          text-transform: uppercase;
+          font-size: calrem(40px);
+          color:#0F4960;
+          font-family: 'Abril Fatface', cursive;  
+          margin-bottom:1rem;      
+      }
+      p{
+        font-size: calrem(14px);
+        font-family: 'Montserrat', sans-serif;
+        color: #4F4F4F;
+        padding-right:8.625rem;
+        padding-bottom:3rem;
+      }
+}

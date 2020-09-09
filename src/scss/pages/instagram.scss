@@ -1,0 +1,44 @@
+@import "../functions.scss";
+body{
+    background-color: white;
+}
+#instagram__section{
+    padding:0;
+    margin:0;
+    background-color: white ;
+    overflow: scroll;
+    .column{
+        padding:0;
+        margin:0;
+    }
+    .biggerImage{
+        width: 17%;
+        @include mobile{
+            width: 70%;
+        }
+        img{
+            object-fit: cover;
+        }
+    }
+}
+.instaButton{
+    background-color: white;
+    margin-top:8rem;
+    .column{
+        text-align: center;
+        .button{
+            display: inline-flex;
+            align-items: center;
+            border:0;
+            background-color:  #0F4960;
+            font-size:calrem(14px);
+            font-weight: 600;
+            color:white;
+            font-family: 'Montserrat', sans-serif;
+            img{
+                margin-right:0.5rem;
+                margin-top:0.25rem;
+            }
+        }
+    }
+}

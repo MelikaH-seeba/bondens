@@ -1,0 +1,12 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: hidden;
+}
+#header__section{
+    @include mobile{
+        padding: 0 !important;
+    }
+}

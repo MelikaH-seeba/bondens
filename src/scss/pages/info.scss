@@ -1,0 +1,30 @@
+#info__section{
+   background-color: #F6F6F6;
+   h3{
+      color: #0F4960;
+      font-size: calrem(16px);
+      font-family: 'Abril Fatface', cursive; 
+      margin-bottom:1rem;       
+   }
+   a,p{
+      color: #3A3C3E;
+      font-size: calrem(14px);
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: calrem(40px);
+      margin-bottom:1rem;       
+
+   }
+   .google{
+      
+      a{
+         display: inline-flex;
+         color: #0F4960;
+         font-size: calrem(13px);
+         font-family: 'Montserrat', sans-serif;
+         text-decoration: underline;
+         img{
+            margin-left:0.5rem;
+         }
+      }
+   }
+}

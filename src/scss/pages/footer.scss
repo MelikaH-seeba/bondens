@@ -1,0 +1,64 @@
+@import "../functions.scss";
+#footer__section{
+    background-color:#F6F6F6;
+    padding-top:3rem;
+    .infoColumn{
+       
+       margin-bottom:1rem;
+        background-color: white;
+        .blueTitle{
+            display: inline-flex;
+            align-items: center;
+            border-right:1px solid #E0E0E0;
+            padding-left:calrem(48px);
+            h4{
+                color:#0F4960;
+                font-size: calrem(16px);
+                font-family: 'Abril Fatface', cursive;        
+            }
+            img{
+                margin-right:1rem;
+                
+            }
+        }
+        .text1,.text2{
+            h3{
+                color: #0F4960;
+                font-size: calrem(14px);
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+            }
+            p{
+                font-family: 'Montserrat', sans-serif;
+                color: #3A3C3E;
+                font-size: calrem(14px);
+            }
+        }
+        .text1{
+            padding-left:calrem(40px);
+        }
+        .buttons{
+            padding-left:calrem(40px);
+        }
+        .button{
+            background-color: #E1A75F;
+            border-radius: 4px;
+            padding: 16px 24px;
+            font-size: calrem(12px);
+            font-family: 'Montserrat', sans-serif;
+            border: 0;
+            height: 48px;
+            color:black;
+            font-weight: 600;
+            margin-right:1rem;
+        }
+
+
+        .onlyText{
+            font-family: 'Montserrat', sans-serif;
+            font-size: calrem(12px);
+            color: #3A3C3E;
+            padding-left:calrem(40px);
+        }
+    }
+}

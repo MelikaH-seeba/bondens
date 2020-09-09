@@ -1,0 +1,95 @@
+@import "../functions.scss";
+#arrange__section{
+    padding-bottom:0;
+    h3{
+        color: #E1A75F;
+        font-size: calrem(14px);
+        font-family: 'Abril Fatface', cursive;        
+
+    }
+    h4{
+        text-transform: uppercase;
+        color: #0F4960;
+        font-size: calrem(40px);
+        font-family: 'Abril Fatface', cursive;        
+        margin-bottom:calrem(24px);
+    }
+    .arangeTitle{
+        font-size: calrem(14px);
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom:calrem(52px);
+    }
+    .tabsColumn{
+        padding-left:calrem(287px);
+        padding-right:calrem(229px);
+        background-color: #f6f6f6;
+        padding-top:calrem(94px);
+    }
+    .react-tabs{
+        width: 100%;
+    }
+   .imagesColumns{
+       overflow: scroll;
+       figure{
+           img{
+               width: 100%;
+               object-fit: cover;
+               height: calrem(600px);
+               max-height: calrem(600px);
+           }
+       }
+   }
+   .react-tabs__tab-list{
+        border:0;
+   }
+   .react-tabs__tab{
+       margin-bottom:4px;
+       border: 0;
+       border-radius: 0;
+       padding:calrem(20px);
+       background-color: white;
+       box-shadow: inset 0px -1px 0px #EAEAEA;
+      
+    h6{
+        color:black;
+        font-family: 'Abril Fatface', cursive;        
+        text-transform: uppercase;
+        font-size: calrem(16px);
+    }
+    p{
+        color: #4F4F4F;
+        font-family: 'Montserrat', sans-serif;
+        font-size: calrem(13px);
+    }
+   } 
+   .react-tabs__tab--selected{
+       background-color: #0F4960;
+       h6,p{
+           color:white;
+       }
+
+   }
+   .react-tabs__tab-panel{
+        padding-left:calrem(137px);
+        padding-top: calrem(138px);
+        padding-bottom: calrem(138px);
+
+   }
+   .phoneMail{
+       width: 120%;
+       margin-top:calrem(28px);
+    display: inline-flex;
+    align-items: center;
+    img{
+        margin-right:0.5rem
+    }
+    p{
+        margin-right:0.5rem;
+        color: #0F4960;
+        font-family: 'Montserrat' , sans-serif;
+        font-size: calrem(15px);
+        font-weight: 500;
+
+    }
+}
+}

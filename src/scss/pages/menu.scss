@@ -1,0 +1,68 @@
+@import "../functions.scss";
+#menu__section{
+    background-image: linear-gradient(180deg, rgba(15, 73, 96, 0.92) 0%, #092C3A 82.29%), url(../images/bcg.png);
+    padding-top:calrem(136px);
+    .menuHeader{
+        h3{
+            color: #E1A75F;
+            font-size: 14px;
+            font-family: 'Abril Fatface', cursive; 
+margin-bottom:0.5rem;
+        }
+        h2{
+            text-transform: uppercase;
+            font-family: 'Abril Fatface', cursive; 
+            font-size: calrem(40px);
+            color:white;
+            margin-bottom:1.5rem;
+        }
+        p{
+            font-size: calrem(14px);
+            color: #F2F0ED;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+    }
+    h6{
+        color:white;
+        font-size: calrem(32px);
+        font-family: 'Abril Fatface', cursive; 
+        
+    }
+    .menuColumn{
+        background-color: #092C3A;
+        padding:calrem(119px);
+        padding-top:calrem(64px);
+        .textDecoration{
+            margin-bottom:1.5rem;
+            display: inline-flex;
+            align-items: center;
+            img{
+                margin-left:1rem;
+            }
+        }
+        .namePrice{
+            display: inline-flex;
+            justify-content: space-between;
+            color: white;
+            align-items: center;
+            .name{
+                font-size: calrem(20px);
+                font-family: 'Abril Fatface', cursive; 
+
+            }
+            .price{
+                font-size: calrem(13px);
+                font-family: 'Montserrat', sans-serif;
+                white-space: nowrap;
+            }
+        }
+        .description{
+            p{
+                font-size: calrem(12px);
+                font-family: 'Montserrat', sans-serif;
+                color:white;
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@import "../functions.scss";
+.topEventsSection{
+    padding-bottom:0rem !important;
+}
+#events__section{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top:8rem;
+    padding-bottom:5rem;
+    h2{
+        
+        font-size: calrem(40px);
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        margin-bottom:2rem;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: calrem(16px);
+        margin-bottom:4rem;
+    }
+    .card{
+        margin-bottom:3rem;
+        background-color: white;
+        box-shadow: 0 0 0 0;
+        .content{
+            text-align: left;
+            font-family: 'Work Sans', sans-serif;
+            font-size: calrem(14px);
+        }
+        .title{
+            font-size: calrem(24px);
+            font-family: 'Work Sans', sans-serif;
+        }
+        .subtitle{
+            font-size: calrem(16px);
+            color:$my-green;
+            font-family: 'Work Sans', sans-serif;
+        }
+        .card-image{
+            img{
+                object-fit: cover;
+            }
+        }
+    }
+    .MuiInputBase-root{
+        background-color:#94d3e2;
+        border-radius: 4px;
+        padding-left:1rem;
+        padding-right:1rem;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+        &:focus{
+            border:0px !important;
+        }
+    }
+    .MuiInput-input{
+        padding-right:4rem;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .MuiInputBase-root::before{
+        display: none;
+    }
+    .MuiSvgIcon-root::after{
+        display: none;
+    }
+    .MuiFormLabel-root{
+        z-index: 999;
+        margin:0.5rem;
+        color:black
+    }
+    .MuiFormLabel-root.Mui-focused, .MuiFormLabel-root.MuiFormLabel-filled{
+        margin: 0;
+    }
+    .MuiInput-underline{
+        &:after{
+            border-bottom:0;
+        }
+    }
+}
+
